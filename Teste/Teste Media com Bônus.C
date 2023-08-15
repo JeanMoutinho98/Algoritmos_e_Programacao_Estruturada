@@ -4,7 +4,7 @@ int main(){
     int nota1, nota2, nota3, media;
 
 
-    printf("Digite 3 notas:\n");
+    printf("Digite 3 notas de um aluno:\n");
 
     
     printf("nota1:  ");
