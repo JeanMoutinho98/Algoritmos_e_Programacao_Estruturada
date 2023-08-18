@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 
-int main(){
+int main(){                                                         //Variáveis
     char operador;
     int num1, num2;
     float res;
 
 
-printf("escolha operacao(+,-,*,/)\n");
+printf("escolha operacao(+,-,*,/)\n");                              
 scanf("%c, &operador");
 
 
-if(operador == '+')
+if(operador == '+')                                                 //Cálculos
 {
     printf("voce escolheu 'soma'");
 }
