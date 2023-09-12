@@ -10,24 +10,19 @@ int main(){;                                        //Declarar variáveis
     scanf("%c", &operador);
     
     
-    if(operador == '+')                                               
-    {
+    if(operador == '+'){
         printf("Voce escolheu 'Soma'\n");
     }
-    else if(operador == '-')
-    {
+    else if(operador == '-'){
         printf("Voce escolheu 'Subtracao'\n");
     }
-    else if(operador == '*')
-    {
+    else if(operador == '*' || operador == 'x'){
         printf("Voce escolheu 'Multiplicacao'\n");
     }
-    else if(operador == '/')
-    {
+    else if(operador == '/'){
         printf("Voce escolheu 'Divisao'\n");
     }
-    else if(operador == '%')
-    {
+    else if(operador == '%'){
         printf("Voce escolheu 'Resto da divisao'\n");
     }
     else{
@@ -43,24 +38,19 @@ int main(){;                                        //Declarar variáveis
     scanf("%d", &num2); 
     
 
-    if(operador == '+')                                    //Dar resultado             
-    {
+    if(operador == '+'){                                  //Dar resultado             
         printf("Resultado: %d\n", num1 + num2);
     }
-    else if(operador == '-')
-    {
+    else if(operador == '-'){
         printf("Resultado: %d\n", num1 - num2);
     }
-    else if(operador == '*')
-    {
+    else if(operador == '*' || operador == 'x'){
         printf("Resultado: %d\n", num1 * num2);
     }
-    else if(operador == '/')
-    {
+    else if(operador == '/'){
         printf("Resultado: %d\n", num1 / num2);
     }
-    else if(operador == '%')
-    {
+    else if(operador == '%'){
         printf("Resultado: %d\n", num1 % num2);
     }
 
